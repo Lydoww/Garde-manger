@@ -22,7 +22,7 @@ Les utilisateurs trouvent des recettes sur TikTok, Instagram, Pinterest, mais **
 ### 🎯 V1
 
 - Ajouter, lire, modifier, supprimer des recettes
-- Ajouter un lien vidéo pour avoir un visuel
+- Ajouter un lien vidéo / image pour avoir un visuel
 
 ---
 
