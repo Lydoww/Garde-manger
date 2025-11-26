@@ -1,6 +1,4 @@
-# Garde-manger
-
-# Project Spec 
+# Garde-manger - Project Spec 
 
 ## 1️⃣ Définir le besoin
 
