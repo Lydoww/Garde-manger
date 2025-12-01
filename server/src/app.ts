@@ -1,7 +1,8 @@
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
-import routes from './routes/index';
+import routes from '@/routes/index';
+import { errorMiddleware } from './middlewares/error.middleware';
 
 const app = express();
 
@@ -11,5 +12,7 @@ app.use(cors());
 app.use(helmet());
 
 app.use('/api', routes);
+
+app.use(errorMiddleware);
 
 export default app;
